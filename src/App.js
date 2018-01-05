@@ -4,7 +4,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import Home from './pages/Home.jsx';
-// imports home page from pages folder for routing 
+// imports home page from pages folder for routing
+
 
 class App extends Component {
   render() {
