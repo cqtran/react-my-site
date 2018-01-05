@@ -10,15 +10,13 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron title="Welcome" subtitle="Salutations everyone"/>
+                <Jumbotron title="Welcome" subtitle="Portfolio Cameron Tran"/>
                 <div className="container">
                     <h2>Welcome</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
-                    <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
-                    <h2>A few of my Projects</h2>
+                    <img src={require('../imgs/resume.png')} />
+                    <h2>Projects</h2>
                 </div>
                 <Album />
-                <Footer />
             </div>
         );
     }

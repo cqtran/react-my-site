@@ -13,9 +13,9 @@ class About extends Component {
                 <Jumbotron title="About" subtitle="About subtitle"/>
                 <div className="container">
                     <h2>About </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
-                    <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
-                </div>
+                    <p>My name is Cameron Tran. A final year computing science student at the University of Alberta! This website was created to test out the react framework (library).</p>
+                    <p>I am seeking an entry level position as a software developer to apply technical knowledge, expand skill set, and contribute to the goals of the company. Most notable skills include development of web and mobile applications for both client and personal use. Please enjoy my site!</p>
+                    </div>
                 <Footer />
             </div>
         );
