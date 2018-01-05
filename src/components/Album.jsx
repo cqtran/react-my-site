@@ -7,6 +7,7 @@ class Album extends Component{
     render(){
         return(
     <div className="container">
+        <div className="row">
         <CardGroup>
           <Card>
             <CardImg top width="100%" src="https://i.ytimg.com/vi/8YIqtiUu9Xk/hqdefault.jpg" alt="Card image cap" />
@@ -16,22 +17,24 @@ class Album extends Component{
             </CardBody>
           </Card>
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/08/Android-Device-Manger-lockscreen-options-DSC06383.jpg" alt="Card image cap" />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-              <Button>Button</Button>
+              <CardTitle>Everything Silvia</CardTitle>
+              <CardText>iOS application written in Swift that supplies users with repair and maintenance information for the Nissan silvia</CardText>
             </CardBody>
           </Card>
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="https://cloud.githubusercontent.com/assets/25045046/22404157/732d639a-e5e8-11e6-9e77-c2f9022dccde.png" alt="Card image cap" />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-              <Button onclick="window.location.href='http://www.hyperlinkcode.com/button-links.php'">Button</Button>
+              <CardTitle>Initial D HD</CardTitle>
+              <CardText>Game developed on Unity
+                2D vertical platformer game written for hackED 2017 in 24 hours
+                Displays heavy use of UI, scripts, and texture packs.
+              </CardText>
             </CardBody>
           </Card>
         </CardGroup>
+        </div>
     </div>
         );
     }
